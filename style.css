@@ -1,0 +1,43 @@
+#photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    
+}
+#name {
+    position: absolute;
+    left: 250px;
+    top: 5px;
+    color: white;
+
+}
+#designation {
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    color: white;
+}
+.top_head {
+    height: 209px;
+    width: 900px;
+    background-color: purple;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+h3 {
+    color: red;
+}
+body {
+    background-color: aliceblue;
+}
+p{
+    color: green;
+}
+@media (min-width:110px) and (max-width:1200px){
+    body{
+      background-color: aliceblue;
+    }
+  }
